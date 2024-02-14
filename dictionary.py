@@ -18,3 +18,7 @@ student = {
 }
 print(student["contact"][2])
 print(len(list(student.keys())))
+print(student.values())
+print(student.items())
+print(student.get("name"))
+
